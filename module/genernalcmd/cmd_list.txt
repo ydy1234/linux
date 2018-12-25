@@ -1,2 +1,75 @@
 1.查找包含某一字符串的所有文件
-  find .|xargs grep -ri "IBM" 
+  find .|xargs grep -ri "IBM"
+  find .|xargs grep "TELL"
+  grep "TELL" *.txt
+  find / -mtime 0
+2.编译环境设置变量
+  source *.sh 
+3.unix cmd
+  df --磁盘使用情况
+  du --统计文件黑洞内容
+  wc --统计字符
+  od --显示文件内容
+  truncate --文件截断
+      ::truncate -s 10 ydy.txt
+  unlink --删除文件
+      :: unlink file 
+  ln --创建软连接
+      :: ln -s foo foo/build
+  date --日期
+      :: date +%Y/%m/%d
+  locale --环境语言设置
+      :: locale
+      :: LANG="UTF-8"
+  cal --日历
+      :: cal -1
+      :: cal -3
+      :: cal -m
+      :: cal -y
+  bc --计算器
+  shutdown --关机 
+  init --设置系统模式
+  chown --改变所有者
+  chgrp --改变文件所属用户组
+  chmod --改变文件权限
+  su    --切换用户
+       :: su - user
+  od    --二进制读取文件内容
+       :: od **.txt
+  nl    --显示行号
+       :: nl **.txt
+  file  --文件属性
+       :: file **.txt
+  which --查找位置
+       :: which ifconfig
+  whereis --查找位置
+       :: whereis ifconfig
+  locate --查找位置
+       :: locate ifconfig
+  compress --压缩文件
+       :: compress ydy.Z ydy.txt
+  uncompress --解压文件
+       :: uncompress ydy.Z
+  dump --备份文档
+       :: dump -0j -f y.bz2 ydy.pcap
+  vi/vim --操作数据
+       ::u --复原上一个操作
+       ::Ctrl + r 重做上一个操作
+       :: :50,100s/man/MAN/gc 替换
+  dos2unix --dos文件转换
+  alias --命令别名设置
+       :: alias lm='ls -al'
+  history --历史记录 
+  last --最后登录的人员
+  cut  --切割字符串
+  sort/wc/uniq --排序命令
+  tr   --替换
+       :: tr '[a-z]' '[A-Z]'
+  join --合并数据
+       :: join *.file *.file
+  split --切割命令
+       ::split file
+  diff  --对比文件差异
+  patch --打包修改内容配合diff 
+  pstree --进程关系
+  vmstat --检测资源变化
