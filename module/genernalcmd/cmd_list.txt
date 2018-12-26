@@ -73,3 +73,59 @@
   patch --打包修改内容配合diff 
   pstree --进程关系
   vmstat --检测资源变化
+  gzip   --压缩解压文件
+         :: gzip ydy.txt 压缩
+         :: gzip -d ydy.txt.gz 解压
+  tput   --设置光标位置颜色
+  showkey --显示按键ascill码
+         :: showkey -a
+  readonly --显示只读变量
+  read     --shell读取变量
+  enable   --激活shell的命令
+  logwatch --查看日志
+  lastb    --查看登录失败的用户
+  lastlog    --查看最近登录用户的登录信息
+  logrotate  --日志文件保存过程
+  ipcrm      --删除共享内侧段
+  pidof      --程序的进程号
+  skill      --冻结进程
+  ipcs       --显示进程消息共享内存信号量
+  pmap       --进程内存映射关系
+  pkill      --杀死进程
+             :: pkill name
+  atq        --显示已经设置的任务
+  logname    --显示登录用户名
+  change     --修改用户密码
+  iptraf     --监控网卡流量
+  ss         --统计socket信息
+  nstat      --监视内核SNMP计数器和网络状态的使用工具
+  hping3     --生成解析tcp/ip包
+  iperf      --网络监控情况
+  host       --网址ip地址
+  tracepath  --网址路由信息
+  arpwatch   --监听网络arp记录
+  nslookup   --查找域名信息
+  dig        --域名查询工具
+  arp        --显示arp缓冲区的所有条目，ip及mac地址
+               显示对端的ip及mac地址
+  traceroute --路由信息
+  netstat    --列出所有网络信息
+  nmap       --显示网址开放的端口
+  dhclient   --获取ip
+             ::dhclient -r 释放ip
+  hostname   --主机名字
+  dpkg-reconfigure --重新配置软件
+  aptitude   --更新软件包
+  chkconfig  --检查设置系统的各种服务
+  mpstat     --显示各个CPU的状态信息
+  iostat     --显示各个硬盘和CPU的状态信息
+  sar        --linux系统运行状态统计工具
+  tload      --显示系统的平均负载到指定终端
+  time       --统计程序运行时间
+  vmstat     --虚拟状态信息
+  iftop      --检查带宽
+  ifstat     --统计网络接口活动状态的工具
+  dstat      --全能系统消息统计工具
+  ltrace     --ltrace跟踪进程调用库函数
+  tree       --目录列表
+  file       --文件类型
